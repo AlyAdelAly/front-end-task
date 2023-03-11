@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f8f7f7;
+}
+
+.navbar-background-color {
+    background-color: #2419BE;
+}
+
+.for-sale-button {
+    background-color: #2419BE;
+}
+
+.not-for-sale-button {
+    background-color: #616161;
+}
+
+.text-xxs {
+    font-size: 11px;
+}
+
+.pt-5px {
+    padding-top: 5px;
+}
+
+.active{
+    background-color: #2419BE ;
+    color: #fff;
+  }
+
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+
+  .pagination-btn {
+    color: #9E9E9E;
+    background-color: #E5E5E5;
+  }
+ 
+  .pagination > li > a{
+    padding: 3px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #2419BE ;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    
+    border-radius: 15px;
+  }
+
