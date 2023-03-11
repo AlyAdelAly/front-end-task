@@ -12,5 +12,5 @@ Sakneen Front End Task is an interactive page display some data from an API in a
 # Tools and Libraries
 * Nextjs
 * React Hooks
-* TailWind CSS
+* Tailwind CSS
 * Chakra UI
